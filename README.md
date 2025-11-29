@@ -1,4 +1,3 @@
-# Airline-Sales-Performance-
 # Airline Sales Performance Insights ✈️
 
 This project analyzes **US airline route performance** using the  
