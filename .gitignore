@@ -1,1 +1,3 @@
 data/US Airline Flight Routes and Fares 1993-2024.csv
+outputs/UA_route_summary.csv
+outputs/UA_underperforming_routes.csv
