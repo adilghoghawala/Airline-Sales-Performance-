@@ -32,6 +32,10 @@ airline-sales-performance/
   ├─ requirements.txt
   ├─ INSIGHTS.md         # (optional) hand-written summary of key findings
   └─ README.md
-
+```
 ## 🧱 Tech stack
 - <strong>Language<strong>: Python
+- <strong>Data<strong>: Kaggle - US Airline Flight Routes and Fares 1993-2024
+- <strong>Libraries<strong>: pandas, numpy, kagglehub
+- <strong>Outputs<strong>: Aggregated CSVs + text summary 
+
