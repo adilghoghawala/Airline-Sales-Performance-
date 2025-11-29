@@ -33,8 +33,36 @@ airline-sales-performance/
   └─ README.md
 ```
 ## 🧱 Tech stack
-- <strong>Language<strong>: Python
-- <strong>Data<strong>: Kaggle - US Airline Flight Routes and Fares 1993-2024
-- <strong>Libraries<strong>: pandas, numpy, kagglehub
-- <strong>Outputs<strong>: Aggregated CSVs + text summary 
+- <strong>Language</strong>: Python
+- <strong>Data</strong>: Kaggle - US Airline Flight Routes and Fares 1993-2024
+- <strong>Libraries</strong>: pandas, numpy, kagglehub
+- <strong>Outputs</strong>: Aggregated CSVs + text summary 
 
+## ⚙️ Setup
+1️⃣ Install dependencies
+```text
+py -m pip install -r requirements.txt
+```
+- requirements.txt:
+```text
+pandas
+numpy
+kagglehub    # optional, only needed if using download_data.py
+```
+
+2️⃣ Get the Kaggle dataset
+```text
+py src/download_data.py
+```
+
+## 🧱 Conclusion
+This project demonstrates:
+- Building a route-level revenue & market share model from real DOT/Kaggle data
+- Using Python to:
+    - Aggregate large datasets to route–year level
+    - Approximate market size and carrier revenue
+    - Identify underperforming routes based on share + trend
+- Translating outputs into data-backed commercial recommendations for:
+    - Network planning
+    - Revenue management
+    - Sales / corporate account teams
