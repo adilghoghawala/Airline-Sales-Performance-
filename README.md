@@ -47,10 +47,17 @@ py -m pip install -r requirements.txt
 ```text
 pandas
 numpy
-kagglehub    # optional, only needed if using download_data.py
+kagglehub    # recommended 
 ```
 
 2️⃣ Get the Kaggle dataset
+- Go to Kaggle: US Airline Flight Routes and Fares 1993-2024.
+- Download the CSV
+- Place it in the data/ folder and name it, for example
+```
+data/us-airline-flight-routes-and-fares-1993-2024.csv
+```
+- Or use download_data.py:
 ```text
 py src/download_data.py
 ```
@@ -66,3 +73,5 @@ This project demonstrates:
     - Network planning
     - Revenue management
     - Sales / corporate account teams
+
+
