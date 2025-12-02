@@ -64,12 +64,12 @@ py src/download_data.py
 
 ## 🧱 Conclusion
 This project demonstrates:
-- Building a route-level revenue & market share model from real DOT/Kaggle data
+- Building a <strong>route-level revenue & market share model</strong> from real DOT/Kaggle data
 - Using Python to:
     - Aggregate large datasets to route–year level
-    - Approximate market size and carrier revenue
-    - Identify underperforming routes based on share + trend
-- Translating outputs into data-backed commercial recommendations for:
+    - Approximate <strong>market size</strong> and <strong>carrier revenue</strong>
+    - Identify <strong>underperforming routes</strong> based on share + trend
+- Translating outputs into <strong>data-backed commercial recommendations</strong> for:
     - Network planning
     - Revenue management
     - Sales / corporate account teams
